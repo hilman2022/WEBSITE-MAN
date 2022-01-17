@@ -1,0 +1,299 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    background-color: white;
+    
+}
+
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+} 
+
+
+.information{
+    background-color: white;
+    height: 100vh;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.profile{
+    width: 300px;
+    border-radius: 200px;
+    padding: 30px;  
+}
+
+.vid-dance{
+    position: flex;
+    padding-top: 40px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0, 0, 15px, rgb(0, 0, .2);
+    box-sizing: border-box;
+}
+
+.fam-container{
+    column-count: 4;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgb(236, 236, 236);
+    padding: 30px;
+    box-shadow: 0, 0, 30px, rgba(0, 0, 0, .25);
+}
+
+.grid-img{
+    column-count: 2;
+    column-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #1c1d25;
+    padding: 30px;
+    box-shadow: 0, 0, 30px, rgba(0, 0, 0, .25);
+}
+
+
+.education{
+    background-color: white;
+    height: 80vh;
+    padding: 80px;
+    text-align: justify;
+}
+
+.edu-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.school{
+    width: 110px;
+    justify-content: space-around;
+    
+}
+
+.school-1{
+    width: 150px;
+    justify-content: space-around;
+    
+}
+
+.experience{
+    background-color: white;
+    height: 90vh;
+    padding: 80px;
+    text-align: justify;
+}
+
+.experince-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.family{
+    background-color: white;
+    height: 220vh;
+    padding: 80px;
+    text-align: justify;
+}
+
+.heading-fam{
+    text-align: center;
+}
+
+.gallery{
+    background-color: white;
+    height: 100vh;
+    padding: 50px;
+}
+
+.gallery-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.posting{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(182, 181, 181);
+    margin: 10px;
+}
+
+.posting-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.posting-img{
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.posting-link{
+    text-decoration: none;
+    color: #ef744b;
+    
+}
+
+footer{
+    background-color: black;
+    padding: 60px;
+    color: white;
+    text-align: center
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-between;
+   
+
+    font-size: 20px;
+   
+}
+
+li{
+    /* width: 200px; */
+    text-decoration: none;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+p{
+    margin: 0;
+    font-weight: 600;
+}
+
+.hero-area{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #a9a9a9;
+    color: #808080
+}
+
+.button-gallery{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.button-gallery:hover{
+    background-color: #ef744b;
+}
+
+.button-gallery:active{
+    background-color: #a9a9a9;
+    color: #808080
+}
+.socials{
+    padding-bottom: 40px;
+}
+
+.logo{
+    height: 80px;
+    margin: 10px;
+}
+
+.social{
+    margin: 20px;
+
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot{
+    width: 200px;
+    border-radius: 150px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.experience-container{
+    display: flex;
+    justify-content: space-around;
+}
+
